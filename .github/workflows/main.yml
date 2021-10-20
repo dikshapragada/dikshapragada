@@ -1,0 +1,7 @@
+ name: databricks-import-directory
+ uses: microsoft/databricks-import-directory@v1.0.0
+ with:
+  databricks-host: https://adb-2803406509287793.13.cloud.databricks.com
+  databricks-token: dapidd41db34179d5c268204387c7ab3ecfb-3
+  local-path: ./https://adb-2803406509287793.13.azuredatabricks.net/?o=2803406509287793#notebook/2953847444847021/command/2953847444847022
+  remote-path: /https://adb-2803406509287793.13.azuredatabricks.net/?o=2803406509287793#notebook/2311431816408714/command/2311431816408715
