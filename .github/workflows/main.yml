@@ -23,6 +23,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: install-databricks-cli
+        uses: microsoft/install-databricks-cli@v1.0.0
+        
       - name: databricks-import-directory
         uses: microsoft/databricks-import-directory@v1.0.0
         with:
